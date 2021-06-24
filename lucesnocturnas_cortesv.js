@@ -1,4 +1,4 @@
-//Descarga luces nocturas para un período especificado y hace el corte de país
+//Descarga luces nocturnas para un período especificado y hace el corte de país
 
 var dataset = ee.ImageCollection('NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG')
                   .filter(ee.Filter.date('2019-09-01', '2020-12-31'))
