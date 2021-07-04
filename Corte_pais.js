@@ -1,4 +1,4 @@
-#Es necesario subir a los Assets los límites del país previamente en formato shape.
+//Es necesario subir a los Assets los límites del país previamente en formato shape.
 var table = ee.FeatureCollection("users/maguilar/limite_sv");
 
 var dataset = ee.ImageCollection('NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG')
